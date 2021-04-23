@@ -1,0 +1,41 @@
+
+
+.dine--featured {
+    width: 40%;
+    height: 900px;
+    background: #fff;
+    position: relative;
+    float: left;
+}
+.dine--featured .featured--captions h2{
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+.dine--featured .more {
+    margin-top: 40px;
+}
+.featured--captions .more {
+    margin-top: 100px;
+    display: inline-block;
+}
+.more.black {
+    color: #000;
+}
+
+.more.black::before {
+    background: #000;
+}
+
+.more.black:hover{
+    color:#000;
+    border:#000 solid;
+}
+
+
+
+.dine--featured .dine-food {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    max-width: 485px;
+}

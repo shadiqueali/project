@@ -1,0 +1,93 @@
+
+
+.shop--featured {
+    width: 60%;
+    height: 900px;
+    background: #cfcac7;
+    position: relative;
+    float: left;
+}
+
+
+
+.shop--featured .featured--captions {
+    top: 200px;
+}
+
+.featured--captions {
+    left: 100px;
+    position: absolute;
+    top: 100px;
+    z-index: 1;
+}
+
+
+
+.featured--captions h2 {
+    font-size: 70px;
+    color: #000;
+    margin: 0 0 40px 0;
+}
+
+.featured--captions p {
+    font-size: 18px;
+    color: #666;
+}
+
+.shop--featured .featured--captions h2,
+.shop--featured .featured--captions p {
+    color: #fff;
+}
+
+.featured--captions .more {
+    margin-top: 100px;
+    display: inline-block;
+}
+
+.more {
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    color: #fff;
+    padding: 10px 0;
+    transition: all .5s ease;
+}
+
+.more::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    height: 2px;
+    transition: all .2s ease;
+}
+
+.more:hover {
+    color: #fff;
+    padding: 10px 15px;
+    border: #fff solid 1px;
+}
+
+
+.shop--featured .fashion--girl {
+    position: absolute;
+    right: 80px;
+    bottom: 0;
+    max-width: 480px;
+}
+
+img {
+    border: none;
+    outline: 0;
+    display: block;
+    transition: all .5s ease;
+}
+
+.img-responsive {
+    width: 100%
+}
+
+.more:hover::before {
+    opacity: 0
+}

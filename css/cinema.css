@@ -1,0 +1,44 @@
+.movie--featured {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+}
+.movie--featured .featured--captions {
+    top: 200px;
+    max-width: 360px;
+    right: 200px;
+    left: auto;
+}
+
+
+
+.movie--featured .featured--captions p {
+    color: #fff;
+}
+.movie--featured .more {
+    margin-top: 40px;
+}
+
+.entertain--featured .skating, .movie--featured .pvr {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: 100%;
+    min-width: 100%;
+    max-width: none;
+    transform: translate(-50%,-50%);
+    -o-object-fit: cover;
+    object-fit: cover;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.movie--featured .featured--captions h2 {
+    font-size: 55px;
+    margin-bottom: 20px;
+    color: #fff;
+}

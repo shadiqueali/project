@@ -1,0 +1,249 @@
+
+
+@media(max-width:1500px) {
+    .shop--featured .fashion--girl,
+    .dine--featured .dine-food {
+        max-width: 380px
+    }
+    .shop--featured,
+    .dine--featured {
+        height: 730px
+    }
+    .entertain--featured {
+        height: 600px
+    }
+    .shop--featured .featured--captions {
+        top: 100px
+    }
+    .featured--captions h2 {
+        font-size: 60px
+    }
+    .entertain--featured .featured--captions {
+        top: 200px
+    }
+    
+    .video-caption {
+        width: 40%
+    }
+    .video-caption h1 {
+        font-size: 80px
+    }
+}
+
+@media(max-width:1300px) {
+    header .logo,
+    .video-caption,
+    .featured--captions {
+        left: 50px
+    }
+    .video-caption h1 {
+        font-size: 50px;
+        margin-bottom: 20px
+    }
+    .video-caption p,
+    .featured--captions p,
+    .more {
+        font-size: 16px
+    }
+    nav {
+        max-width: 500px
+    }
+    .scroll-more {
+        right: 50px
+    }
+    .featured--captions h2,
+    .dine--featured .featured--captions h2,
+    .entertain--featured .featured--captions h2,
+    .movie--featured .featured--captions h2 {
+        font-size: 50px
+    }
+  
+    .movie--featured {
+        height: 600px
+    }
+    .movie--featured .featured--captions {
+        top: 160px;
+        right: 140px
+    }
+    
+  
+}
+
+@media(max-width:992px) {
+    .hero-container {
+        padding-top: 90px
+    }
+    header .logo,
+    .video-caption,
+    .featured--captions {
+        left: 25px
+    }
+    .burger {
+        right: 0
+    }
+    
+    .location {
+        right: 100px
+    }
+    nav {
+        max-width: 600px
+    }
+    nav ul.main li {
+        width: 50%;
+        float: left
+    }
+    nav ul.main li a {
+        font-size: 16px
+    }
+    .shop--featured .fashion--girl,
+    .dine--featured .dine-food {
+        max-width: 250px
+    }
+    .shop--featured,
+    .dine--featured,
+    .movie--featured,
+    .entertain--featured {
+        height: 500px
+    }
+    .shop--featured .featured--captions {
+        top: 100px
+    }
+    .entertain--featured .featured--captions {
+        top: 100px
+    }
+    .shop--featured .fashion--girl {
+        right: 40px
+    }
+    .featured--captions h2,
+    .dine--featured .featured--captions h2,
+    .entertain--featured .featured--captions h2,
+    .movie--featured .featured--captions h2 {
+        font-size: 38px;
+        margin-bottom: 20px
+    }
+    .featured--captions {
+        top: 50px
+    }
+    .featured--captions .more,
+    .dine--featured .more {
+        margin-top: 30px
+    }
+    .entertain--featured .featured--captions {
+        max-width: 50%
+    }
+  
+    .movie--featured .featured--captions {
+        top: 120px
+    }
+    footer .greyed {
+        padding-top: 20px
+    }
+    .greyed .col-xs-12 {
+        margin-top: 30px
+    }
+    .go-up {
+        bottom: 15px
+    }
+ 
+    
+}
+
+
+  
+
+@media(max-width:642px) {
+    header {
+        height: 80px
+    }
+    header .logo {
+        width: 140px;
+        left: 0;
+        top: 10px
+    }
+    .hero-container {
+        padding-top: 80px
+    }
+    nav {
+        padding: 60px 30px 30px
+    }
+    .mobile-hero-slider li .slider-caption {
+        width: auto
+    }
+    .mobile-hero-slider li .slider-caption h1 {
+        font-size: 28px;
+        margin-bottom: 10px
+    }
+    .video-caption p,
+    .featured--captions p,
+    .more {
+        font-size: 14px
+    }
+   
+    .shop--featured,
+    .dine--featured {
+        width: 100%
+    }
+    .shop--featured .fashion--girl,
+    .dine--featured .dine-food {
+        width: 180px
+    }
+    .featured--captions h2,
+    .dine--featured .featured--captions h2,
+    .entertain--featured .featured--captions h2,
+    .movie--featured .featured--captions h2 {
+        font-size: 28px
+    }
+    .shop--featured {
+        height: 350px
+    }
+    .dine--featured {
+        height: 280px
+    }
+    .entertain--featured {
+        height: 400px
+    }
+    .entertain--featured .featured--captions {
+        top: 50px
+    }
+    .featured--captions .more,
+    .dine--featured .more {
+        margin-top: 10px
+    }
+  
+    
+    .movie--featured {
+        height: 300px
+    }
+    .movie--featured .featured--captions {
+        top: 60px;
+        right: 20px
+    }
+    footer .foot-navs {
+        padding: 30px 0
+    }
+    footer .foot-navs ul li,
+    footer .foot-navs ul li a,
+    footer .legal--copyrights p,
+    footer .legal--copyrights ul li a {
+        font-size: 14px
+    }
+    footer .legal--copyrights ul {
+        float: left
+    }
+    footer .legal--copyrights ul li {
+        margin-left: 0;
+        margin-right: 20px
+    }
+    footer .greyed h4 {
+        font-size: 18px
+    }
+    .newsletter-form .btn-main {
+        left: 71%
+    }
+  
+  
+  
+   
+    
+}
+
